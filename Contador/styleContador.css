@@ -1,0 +1,80 @@
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    border-bottom: 2px solid white;
+}
+
+  .contador {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin:auto;
+    padding-top: 10%;
+  }
+  button{
+      border: none;
+      border-radius: 6px;
+      color: white;
+      padding: 8px 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+  
+  }
+
+  #btnDisminuir {
+    background-color: red;
+  }
+
+  #btnReiniciar {
+    background-color: blue;
+  }
+
+  #btnIncrementar {
+    background-color: green;
+  }
+
+  #numeroContador {
+    font-size: 36px;
+  }
+
+  .positivo {
+    color: green;
+  }
+  
+  .negativo {
+    color: red;
+  }
+
+  .cero {
+    color: blue;
+  }
