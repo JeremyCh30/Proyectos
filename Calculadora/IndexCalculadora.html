@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styleCalculadora.css">
+  <title>Calculadora</title>
+</head>
+<body>
+  <header>
+    <nav>
+        <ul>
+            <li><a href="../Contador/Index.html">Contador</a></li>
+            <li><a href="#">Background camaleón</a></li>
+            <li><a href="./IndexCalculadora.html">Calculadora</a></li>
+            <li><a href="#">Pokedex</a></li>
+        </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="calculadora">
+      <input type="text" id="resultado" readonly>
+      <div class="botones">
+        <button onclick="limpiar()">C</button>
+        <button onclick="agregarCaracter('/')">/</button>
+        <button onclick="agregarCaracter('*')">*</button>
+        <button onclick="agregarCaracter('-')">-</button>
+        <button onclick="agregarCaracter('7')">7</button>
+        <button onclick="agregarCaracter('8')">8</button>
+        <button onclick="agregarCaracter('9')">9</button>
+        <button onclick="agregarCaracter('+')">+</button>
+        <button onclick="agregarCaracter('4')">4</button>
+        <button onclick="agregarCaracter('5')">5</button>
+        <button onclick="agregarCaracter('6')">6</button>
+        <button onclick="calcular()">=</button>
+        <button onclick="agregarCaracter('1')">1</button>
+        <button onclick="agregarCaracter('2')">2</button>
+        <button onclick="agregarCaracter('3')">3</button>
+        <button onclick="agregarCaracter('0')">0</button>
+      </div>
+    </div>
+  </main>
+  
+  <script src="calculadora.js"></script>
+</body>
+</html>
