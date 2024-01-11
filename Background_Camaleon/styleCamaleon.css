@@ -1,0 +1,60 @@
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    border-bottom: 2px solid white;
+  }
+
+body {
+    background-color: #333;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.5s ease; /* Transición suave al momento de cambiar de color */
+  }
+  
+  .container {
+    width: 500px;
+    height: 150px;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 250px;
+  }
+  
+  button {
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+  }
+  #mensaje {
+    color: #fff;
+    font-size: 24px;
+  }
