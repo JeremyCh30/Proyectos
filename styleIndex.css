@@ -4,28 +4,28 @@ header {
     color: white;
     padding: 15px;
     text-align: center;
-  }
-  
-  nav ul {
+}
+
+nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-  }
-  
-  nav li {
+}
+
+nav li {
     display: inline;
     margin-right: 15px;
-  }
-  
-  nav a {
+}
+
+nav a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-  }
-  
-  nav a:hover {
+}
+
+nav a:hover {
     border-bottom: 2px solid white;
-  }
+}
 
   body {
     font-family: Arial, sans-serif;
@@ -33,5 +33,32 @@ header {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    margin: 0;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.custom-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Incluye el padding en el ancho */
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
     margin: 0;
 }
